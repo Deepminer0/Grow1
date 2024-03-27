@@ -1,0 +1,329 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+
+html,body{
+    height: 100%;
+    /* background-color: rgb(8, 8, 8); */
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.Menu{
+    color: rgb(255, 255, 255);
+    background-color: black;
+    margin-top: -30px;
+    height: 120px;
+
+}
+@media only screen and (max-width:400px){
+    .Menu{
+        height:150px;
+        background-color: rgb(0, 0, 0);
+        border-radius: 10px;
+    }
+}
+.Grocify{
+    /* margin-left: -50px; */
+    margin-top: 10px;
+    font-size: 30px;
+}
+.notification{
+    filter: invert(1);
+height:25px;
+float: right;
+margin-right: 20px;
+margin-top: -0px;
+}
+
+h6{
+    margin-left: -265px;
+    font-weight: 250;
+    margin-top: -10px;
+    font-family: "Lexend", sans-serif;
+}
+
+h1{
+font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+margin-left: 30px;
+  font-style: normal;
+  padding-top:50px;
+  font-size: 23px;
+}
+
+/* ------------------banner----------- */
+.banner{
+    /* border: 1px solid red; */
+    height: 190px;
+    margin-left: 150px;
+    width: 80%;
+    margin-top: 20px;
+    border: 1px solid rgb(223, 219, 219);
+    border-radius: 20px;
+    background-color: black;
+    /* background-image: linear-gradient(to right, #000000, #3b3b3b, #777777, #b9b9b9, #ffffff); */
+    background-image: linear-gradient(to right, #000000, #1f1f1f, #393838, #545353, #716f6f);
+    /* background-image: linear-gradient(to rgb(202, 31, 31), red , white); */
+    color: rgb(255, 255, 255);
+    padding-top: 5px;
+    
+}
+
+/* -------------------------banner2------------------------------- */
+.banner2{
+    height: 170px;
+    margin:auto;
+    width: 95%;
+    margin-top: 10px;
+    border: 1px solid rgb(223, 219, 219);
+    border-radius: 20px;
+    background-color: black;
+    background-image: linear-gradient(to right, #cf0809, #d9342d, #e1504a, #e66865, #e97f7f);
+    color: rgb(255, 255, 255);
+    padding-top: 5px;
+}
+.Heading2{
+    font-size: 25px;
+        float: left;
+        margin-top: -35px;
+}
+.headingpara2{
+    color: wheat;
+        margin-top: 55px;
+        margin-left: -195px;
+}
+.gasorder{
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    margin-left: 30px;
+    font-style: normal;
+    margin-top: 30px;
+    font-weight: 200;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid #ffffff; */
+    border-radius: 9999px;
+    background-color: rgb(112, 6, 6);
+    padding: 0.625rem 1.5rem;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    outline: 0;
+    transition: all  .2s ease;
+    text-decoration: none;
+  }
+  
+  .gasorder:hover {
+    background-color: white;
+    color: rgb(0, 0, 0);
+    font-weight: 250;
+  }
+  .gascylinder{
+    height: 110px;
+    float: right;
+    margin-top:-35px;
+  }
+  @media only screen and (max-width: 400px){
+    .gasorder{
+        float: left;
+    }
+}
+
+
+
+.pcrepair{
+    height: 130px;
+    width: 200px;
+    float: right;
+    margin-top: -70px;
+    padding-right: 30px;
+}
+@media only screen and (max-width:400px)
+{
+    .pcrepair{
+        /* display: block; */
+        /* -moz-box-sizing: border-box; */
+        box-sizing: border-box;
+        background-image: url("Image/cpu.png")
+          no-repeat;
+        width: 50px;
+        height: 201px;
+        /* display: flex; */
+        padding-right: 160px;
+        margin-top: -20%;
+       
+    }
+    .Grocify{
+        margin-left: -220px;
+    }
+    h6{
+        margin-left: -238px;
+    }
+}
+h5{
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    margin-left: 30px;
+    font-style: normal;
+    margin-top: 10px;
+    font-weight: 200;
+}
+.repairbutton{
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    margin-left: 30px;
+    font-style: normal;
+    margin-top: 30px;
+    font-weight: 200;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ffffff;
+    border-radius: 9999px;
+    background-color: rgba(0, 0, 0, 1);
+    padding: 0.625rem 1.5rem;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    outline: 0;
+    transition: all  .2s ease;
+    text-decoration: none;
+  }
+  
+  .repairbutton:hover {
+    background-color: white;
+    color: rgb(0, 0, 0);
+    font-weight: 250;
+  }
+  @media only screen and (max-width: 400px){
+    .repairbutton{
+        float: left;
+    }
+}
+
+
+.conatiner{
+ /* border: 1px solid rgb(214, 214, 214); */
+    width: 90%;
+    border-radius: 10px;
+    height: 45%;
+    display: flex;
+    background-color: #f7f6f6;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    
+}
+.conatiner2{
+    width: 90%;
+    border-radius: 10px;
+    height: 45%;
+    display: flex;
+    background-color:#f7f6f6;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+}
+h2{
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    margin-left: 30px;
+    font-style: normal;
+    margin-top: 30px;
+    font-weight: 300;
+}
+h4{
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    /* margin-left: 30px; */
+    font-style: normal;
+    margin-top: 30px;
+    font-weight: 300;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(238, 238, 241);
+    border:1px solid rgb(217, 217, 219);
+    border-radius: 10px;
+    object-fit: cover;
+    padding: 5px;
+    margin-top: -65px;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.Image1{
+    height: 100px;
+    margin: auto;
+    display: block;
+}
+
+
+@media only screen and (max-width: 600px){
+    .box{
+        background-color: rgb(238, 238, 241);
+        border:1px solid rgb(217, 217, 219);
+        border-radius: 10px;
+        margin: 10px ;
+        height: 60px;
+        width: 60px;
+
+    }
+    
+    .conatiner{
+        flex-wrap: wrap;
+        height: 200px;
+        text-indent: -9999px;
+       
+    }
+    .conatiner2{
+        flex-wrap: wrap;
+        height: 300px;
+        text-indent: -9999px;
+        border: 1px solid rgb(221, 250, 214);
+    }
+    .Image1{
+        height: 60px;
+    }
+}
+@media only screen and ( max-width:400px){
+    body{
+        text-align: center;
+    }
+    .h1{
+        color: orange;
+    }
+}
+@media only screen and ( max-width:412px){
+    .banner{
+    height: 170px;
+    margin-left: 10px;
+    width: 93%;
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: black;
+    }
+    .Heading{
+        font-size: 25px;
+        float: left;
+        margin-top: -35px;
+       
+    }
+    .headingpara{
+        color: wheat;
+        margin-top: 55px;
+        margin-left: -175px
+    }
+    
+}
+
+
